@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="shortcut icon"
+            href="../images/youtubelogo.webp"
+            type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <script
+            src="../https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+            defer
+        ></script>
+        <script src="youtube.js" defer></script>
+        <link rel="stylesheet" href="youtube.css" />
+        <title>YouTube video website</title>
+    </head>
+    <body>
+        <header>
+            <nav class="flex-div">
+                <div class="nav-left flex-div">
+                    <a href=""
+                        ><img
+                            src="../../images/menu.jpg"
+                            alt="menu"
+                            class="menu-icon"
+                    /></a>
+                    <img
+                        class="logo"
+                        src="../../images/youtubelogo.webp"
+                        alt="youtubelogo"
+                    />
+                    <span class="logo-name">YouTube</span>
+                </div>
+                <div class="nav-middle flex-div">
+                    <div class="search-box flex-div">
+                        <input type="search" placeholder="Search" />
+                        <img
+                            src="../../images/search.png"
+                            alt="search"
+                            class="search-icon"
+                        />
+                    </div>
+                    <img
+                        src="../../images/mic.png"
+                        alt="mic"
+                        class="mic-icon"
+                    />
+                </div>
+                <div class="nav-right flex-div">
+                    <a href=""
+                        ><img
+                            src="../../images/video-plus.png"
+                            alt="video-plus"
+                    /></a>
+                    <a href=""><img src="../images/bell.png" alt="bell" /></a>
+                    <img
+                        src="../../images/brucewhite.jpg"
+                        alt="brucewhite"
+                        class="user-icon"
+                    />
+                </div>
+            </nav>
+        </header>
+
+        <!------------------ sidebar --------->
+
+        <div class="sidebar">
+            <div class="shortcut-links">
+                <a href=""
+                    ><img src="../../images/home.png" alt="" />
+                    <p>home</p></a
+                >
+                <a href=""
+                    ><img
+                        class="sidebar-icons"
+                        src="../../images/black-shorts.png"
+                        alt="black-shorts"
+                    />
+                    <p>shorts</p></a
+                >
+                <a href=""
+                    ><img
+                        class="sidebar-icons"
+                        src="../../images/subs.webp"
+                        alt="subscribe"
+                    />
+                    <p>subscribe</p></a
+                >
+                <a href=""
+                    ><img
+                        class="sidebar-icons"
+                        src="../../images/library.png"
+                        alt="library"
+                    />
+                    <p>library</p></a
+                >
+                <a href=""
+                    ><img
+                        class="sidebar-icons"
+                        src="../../images/history.png"
+                        alt="history"
+                    />
+                    <p>histoy</p></a
+                >
+                <a href="" id="more"
+                    ><img
+                        class="sidebar-icons"
+                        src="../../images/down angle.png"
+                        alt="down-angle"
+                    />
+                    <p>more</p></a
+                >
+                <hr />
+            </div>
+            <div class="subscribed-list">
+                <h3>Trending</h3>
+                <a href="youtubeplay.html"
+                    ><img src="../../images/bex.webp" alt="bex" />
+                    <p>Motivational</p></a
+                >
+                <a href=""
+                    ><img src="../../images/messi cute.jpg" alt="messi" />
+                    <p>Messi</p></a
+                >
+                <a href="youtubeplay2.html"
+                    ><img src="../../images/star boy.jpg" alt="star-boy" />
+                    <p>Bruchi</p></a
+                >
+                <a href=""
+                    ><img src="../images/model.jpg" alt="model" />Models</a
+                >
+            </div>
+        </div>
+
+        <!--------------categories ----------------- -->
+        <div class="categories">
+            <div><p id="all">All</p></div>
+            <div class="box"><p>Computer Programming</p></div>
+            <div class="box"><p>AI</p></div>
+            <div class="box"><p>Music</p></div>
+            <div class="box"><p>Movie Analytics</p></div>
+            <div class="box"><p>Database</p></div>
+            <div class="box"><p>Mathematics</p></div>
+            <div class="box"><p>Physics</p></div>
+            <div class="box"><p>Messi</p></div>
+            <div class="box"><p>Marvel</p></div>
+            <div class="box"><p>Anime</p></div>
+            <div class="box"><p>Microsoft</p></div>
+            <div class="box"><p>Space</p></div>
+            <div class="box"><p>Culture</p></div>
+            <div class="box"><p>Business</p></div>
+            <div class="box"><p>Machine</p></div>
+            <div class="box"><p>Trending</p></div>
+            <div ><p id="last">New To You</p></div>
+        </div>
+
+        <!------------ main ----------------->
+        <div class="container">
+            <div class="banner">
+                <p>Enjoy youtube videos</p>
+                <button class="start">Your Favorites</button>
+            </div>
+
+            <div class="list-container">
+                <div class="vid-list">
+                    <a href="https://youtu.be/9bZkp7q19f0">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/9bZkp7q19f0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCcjOO401gtXMFAu0GngeIwZOkO-Q"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/yKmZZqeTz9g">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/yKmZZqeTz9g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCZ3yC4H8j0zdFnXnUD2ARFA-WQ9w"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/r7qovpFAGrQ">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/r7qovpFAGrQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCxeewocTXsC60G1XA1FanxyiAtOg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/jifUJrYPZQQ">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/jifUJrYPZQQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLALypSzPzlcRKduf1L4Lr9a0zlITw"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/kTJczUoc26U">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/kTJczUoc26U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBePcCsv3lsl2pnaaTO-DNDzBJ8Dg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/P_A4CpeLgCg">
+                        <img
+                            alt=""
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/P_A4CpeLgCg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLASdz0Nt82hDl2P2sa8Yj5ErYYAnw"
+                        />
+                    </a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/KBtk5FUeJbk">
+                        <img
+                            alt=""
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/KBtk5FUeJbk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB7VZoDSsjcgG3-KvjMIQpc6AJm7A"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/8n5dJwWXrbo">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/8n5dJwWXrbo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhNIF4oZTAP&amp;rs=AOn4CLC7QRT_kerJIUvcrKgBeZeB-B75SA"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/fLexgOxsZu0">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/fLexgOxsZu0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAB7wraAswiBS6BqUgqQQNZMsdSZA"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/7NxPIduCBQs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/7NxPIduCBQs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDV-YDY1MrMApj8i_OndOZy3g7fZg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/DyHnyHQx2vs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/DyHnyHQx2vs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCq_-WSvGSd5A6P0mlwv3q0REC2iQ"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/wfF0zHeU3Zs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/wfF0zHeU3Zs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDEHHeNqb4guEvQ9L79zmMxFWqy9A"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <!-------------- short section---------------->
+            <div class="shorts-icon">
+                <img src="../images/shorts.png" alt="shorts" />
+                <span>Shorts</span>
+            </div>
+            <div class="shorts">
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/6-9OEmw4gkQ">
+                            <img
+                                src="https://i.ytimg.com/vi/6-9OEmw4gkQ/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBvgSAAoAIigIMCAAQARhlIEkoQTAP&amp;rs=AOn4CLDpsUY0DGFtzkizcXFa2Fuj_RXIfw"
+                        /></a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/KriBQVhsgZk">
+                            <img
+                                src="https://i.ytimg.com/vi/KriBQVhsgZk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCg0_jfCJNSOYWPSbZcgcbOqbywrA"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/ZYcKaO4-bOk">
+                            <img
+                                src="https://i.ytimg.com/vi/ZYcKaO4-bOk/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&amp;rs=AOn4CLAw96jAzMMQyGwZ4714EaYgyZ-3bg"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/fIYKkKaGkPY">
+                            <img
+                                src="https://i.ytimg.com/vi/fIYKkKaGkPY/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IEkoLDAP&amp;rs=AOn4CLB4uBh0lnrdwZtNTU1lKXw0Qm7EtA"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/hmNpcYr7XeY">
+                            <img
+                                src="https://i.ytimg.com/vi/hmNpcYr7XeY/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&amp;rs=AOn4CLBA7vg64RFfi8bbTkdva8EzMQpz5w"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/aHiNXVKnYIU">
+                            <img
+                                src="https://i.ytimg.com/vi/aHiNXVKnYIU/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARhyIFMoPTAP&amp;rs=AOn4CLAODCyCVz7Ji86xUYTlwh5VHuoFrQ"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/fi6MbCiQLjA">
+                            <img
+                                src="https://i.ytimg.com/vi/fi6MbCiQLjA/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&amp;rs=AOn4CLCFfFetbj2E2zt410GN6gXPVLF3uQ"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+                <div class="short short-vids">
+                    <div class="short-videos">
+                        <a href="https://youtu.be/cvn8aOuKYVU">
+                            <img
+                                src="https://i.ytimg.com/vi/cvn8aOuKYVU/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_ID8oEzAP&amp;rs=AOn4CLDWyGGJXRtWGA9ccUUD5BvtP8ieSQ"
+                            />
+                        </a>
+                    </div>
+                    <div class="short-info">
+                        <p>amazing features</p>
+                        <p>234k views &bull;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+
+        <!-------------------------- lower play video--------- -->
+        <div class="container">
+            <div class="list-container">
+                <div class="vid-list">
+                    <a href="https://youtu.be/9bZkp7q19f0">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/9bZkp7q19f0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCcjOO401gtXMFAu0GngeIwZOkO-Q"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/yKmZZqeTz9g">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/yKmZZqeTz9g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCZ3yC4H8j0zdFnXnUD2ARFA-WQ9w"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/r7qovpFAGrQ">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/r7qovpFAGrQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCxeewocTXsC60G1XA1FanxyiAtOg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/jifUJrYPZQQ">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/jifUJrYPZQQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLALypSzPzlcRKduf1L4Lr9a0zlITw"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/kTJczUoc26U">
+                        <img
+                            alt=""
+                            style="background-color: transparent"
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/kTJczUoc26U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBePcCsv3lsl2pnaaTO-DNDzBJ8Dg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/P_A4CpeLgCg">
+                        <img
+                            alt=""
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/P_A4CpeLgCg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLASdz0Nt82hDl2P2sa8Yj5ErYYAnw"
+                        />
+                    </a>
+                    <div class="flex-div">
+                        <img src="../../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="../images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/KBtk5FUeJbk">
+                        <img
+                            alt=""
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/KBtk5FUeJbk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB7VZoDSsjcgG3-KvjMIQpc6AJm7A"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/8n5dJwWXrbo">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/8n5dJwWXrbo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhNIF4oZTAP&amp;rs=AOn4CLC7QRT_kerJIUvcrKgBeZeB-B75SA"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/fLexgOxsZu0">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/fLexgOxsZu0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAB7wraAswiBS6BqUgqQQNZMsdSZA"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/7NxPIduCBQs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/7NxPIduCBQs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDV-YDY1MrMApj8i_OndOZy3g7fZg"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/DyHnyHQx2vs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/DyHnyHQx2vs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCq_-WSvGSd5A6P0mlwv3q0REC2iQ"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vid-list">
+                    <a href="https://youtu.be/wfF0zHeU3Zs">
+                        <img
+                            class="thumbnail"
+                            src="https://i.ytimg.com/vi/wfF0zHeU3Zs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDEHHeNqb4guEvQ9L79zmMxFWqy9A"
+                    /></a>
+                    <div class="flex-div">
+                        <img src="../images/bex.webp" alt="bex" />
+                        <div class="vid-info">
+                            <a
+                                >Best channel to learn coding that help you to
+                                be a web developer</a
+                            >
+                            <p>Bruchi</p>
+                            <p>800M views &bull; 2 months ago</p>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="watch">
+                            <img
+                                src="images/watch-later.jpg"
+                                alt="watch-later"
+                            />
+                            <span>watch later</span>
+                        </div>
+                        <div class="queue">
+                            <img
+                                src="../images/queue-videos.png"
+                                alt="queue-videos"
+                            />
+                            <span>add to queue</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
