@@ -1,3 +1,3 @@
-# Webvercel
+# youtube-clone
 
-youtubeclone
+youtube clone using html, css & js
